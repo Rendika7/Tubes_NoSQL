@@ -1,0 +1,187 @@
+
+/* Global styles */
+body {
+    background: url("Source/2920341.jpg") no-repeat center/cover;
+    font-family: "Jost", sans-serif;
+    margin: 10px;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative; /* Tambahkan ini untuk menentukan posisi pseudo-element */
+    z-index: 1; /* Tambahkan ini untuk mengatur lapisan z-index body */
+    }
+
+
+
+/* Table styles */
+table {
+    position: relative; /* Tambahkan ini untuk menentukan posisi pseudo-element */
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .table-responsive {
+        overflow-x: auto; /* Add horizontal scrolling on smaller screens */
+    }
+    
+    @media screen and (max-width: 600px) {
+        /* Styles for small screens */
+        .table-responsive table {
+            width: 100%; /* Make the table take up full width */
+        }
+        
+        /* You can further adjust font size, padding, etc. for smaller screens */
+    }
+    tbody{
+    background-color: rgba(255, 255, 255, 0.564);
+    }
+    
+th {
+    padding: 10px 70px;
+    width: 100%;
+    min-width: 200px;
+    text-align: center;
+    margin: 50px;
+    background-color: #f2f2f2;
+    }
+
+td{
+    padding: 10px 25px;
+    min-width: 200px;
+    text-align: center;
+    margin: 25px;
+}
+
+tr{
+    border-bottom: 1px solid #ddd;
+}
+
+    th {
+      background-color: #f2f2f2;
+    }
+    
+
+
+/* Media query for responsiveness */
+@media screen and (max-width: 600px) {
+  th, td {
+      padding: 8px;
+  }
+}
+    /* Form styles */
+    form {
+      display: inline-block;
+    }
+    
+    input[type="text"],
+    input[type="email"] {
+      padding: 5px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      margin-right: 10px;
+    }
+    
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    /* Link styles */
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    
+    a:hover {
+      text-decoration: underline;
+    }
+    
+    h2{
+      margin-top: 0px;
+      text-align: center;
+      align-items: center;
+      color: #ddd;
+      font-size:medium;
+    }
+    /* Text styles */
+    h1 {
+      margin-top: 30px;
+      text-align: center;
+      align-items: center;
+      color: #ddd;
+    }
+    
+    .text-center {
+      text-align: center;
+    }
+    
+    /* Add more CSS rules as needed */
+    
+    button{
+      width: 25%;
+      height: 40px;
+      margin: 10px auto;
+      justify-content: center;
+      display: block;
+      color: white;
+      background: #00b8fb;
+      font-size: 1em;
+      font-weight: bold;
+      margin-top: 20px;
+      outline: none;
+      border: none;
+      border-radius: 5px;
+      transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+      cursor: pointer;
+    }
+    
+    button a{
+    text-decoration: none;
+    color: white;
+    }
+    
+    button:hover{
+      background: #a40d0d;
+    }
+
+    
+    /* Set button hover effect */
+    .update-btn:hover {
+      background-color: #0056b3;
+    }
+    
+    /* styles.css */
+    .update-btn {
+    display: inline-block;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+    }
+    .update-btn:hover {
+    background-color: #0056b3;
+    }
+    
+    a{
+    text-decoration: none;
+    }
+
+    .table_action_button{
+        display: flex;
+    }

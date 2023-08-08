@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("Source/6020105.jpg") no-repeat center/cover;
+}
+
+.content {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 100px;
+    color: #ffffff;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+h3 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: lighter;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.options-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 35px;
+    box-shadow: 0px 0px 30px rgba(201, 201, 201, 0.695); /* Bayangan dengan nilai RGBA */
+
+}
+
+.option {
+    flex: 1;
+    margin: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+}
+
+.option img {
+    max-width: 100%;
+    height: auto;
+}
+
+.option img:hover {
+    transform: scale(1.05); /* Adjust the scaling factor as desired */
+    transition: ease-in-out;
+}
